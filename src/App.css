@@ -1,0 +1,96 @@
+body {
+  max-width: 1200px; 
+  min-width: 800px; 
+  margin: 0 auto;
+}
+
+.topMainOne{
+  border-bottom:3px solid black;
+  background: #f5f4f1;
+  padding: 10px;
+}
+
+.topMainTwo{
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  border:2px solid #f5f4f1;
+  margin:0 25px 0 10px;
+  padding:20px;
+}
+
+.inputMain {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  margin:0 25px 0 10px;
+  padding:40px;
+  background-color: #f5f4f1;
+  border-radius:15px;
+  font-weight: bold;
+}
+
+.inputMain input {
+  border-radius:10px;
+  border:0;
+  width: 270px;
+  height: 35px;
+}
+
+.inputMain button {
+  background-color: #00829b;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  border: 0;
+  cursor:pointer;
+}
+
+.mainCards {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.Working {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.workingCard {
+  border:3px solid #00829b;
+  border-radius: 10px;
+  width: 400px;
+  margin:5px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.cardDelBtn {
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: white;
+  width: 170px;
+  height: 40px;
+  cursor:pointer;
+  margin: 20px 0 20px 20px;
+}
+
+.cardBtn {
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: white;
+  width: 170px;
+  height: 40px;
+  cursor:pointer;
+  margin:20px;
+}
+
+.workingCardTitle {
+  margin-left: 20px;
+}
+
+.Done {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

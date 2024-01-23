@@ -7,5 +7,8 @@ My Todo List 만들기
 <img src="img.png">
 
 ### 컴포넌트
-
-Cards.jsx
+Top.jsx -> 상단탭
+InputMain.jsx -> Input, Main 
+Input.jsx -> input 추가
+Main.jsx -> Work, Done
+Cards.jsx -> 카드

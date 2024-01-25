@@ -8,7 +8,7 @@ My Todo List 만들기
 
 ### 컴포넌트
 Top.jsx -> 상단탭  
-InputMain.jsx -> Input, Main   
-Input.jsx -> input 추가  
-Main.jsx -> Work, Done  
+Main.jsx -> Input, Main   
+InputMain.jsx -> input 추가  
+CardMain.jsx -> Work, Done  
 Cards.jsx -> 카드

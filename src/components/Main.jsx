@@ -1,26 +1,15 @@
-import React from "react";
-import Cards from "./Cards.jsx";
+import React, { useState } from "react";
+import MainInput from "./InputMain.jsx";
+import CardMain from "./CardMain.jsx";
 
-function Main({ arr, bool, setArr }) {
+function Main() {
+  const [arr, setArr] = useState([]);
   return (
-    <div className="mainCards">
-      {bool ? "Working..🔥" : "Done..!🎉"}
-      <div className={bool ? "Working" : "Done"}>
-        {arr
-          .filter((item) => {
-            return item.isDone === !bool;
-          })
-          .map((item) => (
-            <Cards
-              arr={arr}
-              setArr={setArr}
-              item={item}
-              key={item.id}
-              buttonText={bool ? "완료" : "취소"}
-            />
-          ))}
-      </div>
-    </div>
+    <>
+      <MainInput setArr={setArr} />
+      <CardMain arr={arr} setArr={setArr} bool={true} />
+      <CardMain arr={arr} setArr={setArr} bool={false} />
+    </>
   );
 }
 

@@ -4,15 +4,15 @@ body {
   margin: 0 auto;
 }
 
-.topMainOne{
+.top{
   border-bottom:3px solid black;
   background: #f5f4f1;
   padding: 10px;
 }
 
-.topMainTwo{
-  display: grid;
-  grid-template-columns: 1fr 40px;
+.topTodoList{
+  display: flex;
+  justify-content:space-between;
   border:2px solid #f5f4f1;
   margin:0 25px 0 10px;
   padding:20px;
@@ -33,6 +33,7 @@ body {
   border:0;
   width: 270px;
   height: 35px;
+  margin:10px;
 }
 
 .inputMain button {
@@ -43,6 +44,7 @@ body {
   border-radius: 10px;
   border: 0;
   cursor:pointer;
+  margin:10px;
 }
 
 .mainCards {
@@ -94,3 +96,4 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
